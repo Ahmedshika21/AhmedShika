@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ِAhmedMahmoud | IT Engineer & Web Developer</title>
+
+    <!-- Premium Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;800&family=Tajawal:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Welcome Splash Screen -->
+    <div id="splash-screen">
+        <div class="splash-content">
+            <!-- Please ensure your image is saved as 'profile.jpg' inside an 'images' folder -->
+            <img src="2 (2).jpg" alt="Ahmed Mahmoud" class="splash-img"
+                onerror="this.src='https://via.placeholder.com/150/030712/3b82f6?text=AM'">
+            <h1 class="splash-name">Ahmed Mahmoud</h1>
+            <p class="splash-text" data-i18n="splash_welcome">Welcome to my portfolio</p>
+        </div>
+    </div>
+
+    <!-- High-Tech Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Abstract Gradient Glows -->
+    <div class="glow top-left"></div>
+    <div class="glow bottom-right"></div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Ahmed<span>Mahmoud</span></a>
+                <ul class="nav-links">
+                    <li><a href="#about" data-i18n="nav_about">About</a></li>
+                    <li><a href="#projects" data-i18n="nav_projects">Work</a></li>
+                    <li><a href="#skills" data-i18n="nav_skills">Expertise</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <button id="lang-toggle" class="btn-lang" title="Switch Language">AR</button>
+                    <a href="https://github.com" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#contact" class="btn-hire" data-i18n="btn_hire">Let's Talk</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container">
+            <div data-aos="fade-up" data-aos-duration="1200">
+                <div class="hero-badge">
+                    <div class="pulse-dot"></div> <span data-i18n="hero_badge">Available for Global Opportunities</span>
+                </div>
+                <h1><span data-i18n="hero_title_prefix">Engineering Smart Systems <br>for </span><span
+                        class="typed-text"></span><span class="cursor">&nbsp;</span>
+                </h1>
+                <p data-i18n="hero_bio">I'm an IT Engineer & Web Developer with over 6 years of experience. I specialize
+                    in Web Development, Python, Embedded Systems, IoT, and Database Software to build robust and
+                    scalable tech solutions.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">
+                        <span data-i18n="btn_projects">View My Projects</span>
+                        <i class="fas fa-arrow-right RTL-icon"></i>
+                    </a>
+                    <a href="#about" class="btn-secondary" data-i18n="btn_discover">Discover More</a>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle" data-i18n="about_subtitle">01. About Me</span>
+                <h2 class="section-title" data-i18n="about_title">Driven by Curiosity & Logic.</h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="100">
+                    <p data-i18n="about_p1">My engineering journey is fueled by over 6 years of hands-on experience in
+                        the IT industry. I've developed a strong foundation in web development, database software,
+                        networking (CCNA), and software engineering, allowing me to tackle complex technical challenges
+                        efficiently.</p>
+                    <p data-i18n="about_p2">I have worked with top companies, serving as a Web Developer at
+                        <strong>MEGAWRA (2019 - 2025)</strong> and later at <strong>Trust Used (2025 - 2026)</strong>.
+                        During this time, I delivered high-quality web solutions, Shopify stores, and robust IT
+                        infrastructure, seamlessly integrating Python logic and IoT systems into modern applications.
+                    </p>
+                    <p data-i18n="about_p3"></p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4 data-i18n="stat_1_val">6+</h4>
+                            <span data-i18n="stat_1_text">Years IT Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <h4 data-i18n="stat_2_val">2+</h4>
+                            <span data-i18n="stat_2_text">Major Companies</span>
+                        </div>
+                        <div class="stat-item">
+                            <h4 data-i18n="stat_3_val">100%</h4>
+                            <span data-i18n="stat_3_text">Passion & Dedication</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left" data-aos-delay="300">
+                    <div class="tech-circle-wrapper">
+                        <div class="tech-circle outer"></div>
+                        <div class="tech-circle inner"></div>
+                        <i class="fas fa-database core-icon"></i>
+                    </div>
+                    <div class="overlay-badge">
+                        <i class="fas fa-laptop-code"></i>
+                        <div>
+                            <span class="badge-title" data-i18n="badge_title">Full Stack</span>
+                            <span class="badge-sub" data-i18n="badge_sub">Web & IT Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle" data-i18n="projects_subtitle">02. Selected Work</span>
+                <h2 class="section-title" data-i18n="projects_title">Engineering Solutions.</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="zoom-in-up" data-aos-delay="100">
+                    <div class="card-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-film"></i></div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 data-i18n="proj_1_title">Movies Streaming Platform</h3>
+                    <p data-i18n="proj_1_desc">Designed and developed a dynamic movies streaming and reviewing website.
+                        Implemented advanced search, filtering, database architecture, and a responsive UI to provide a
+                        seamless user experience across devices.</p>
+                    <div class="project-tags">
+                        <span>Web Development</span>
+                        <span>Databases</span>
+                        <span>Frontend</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="zoom-in-up" data-aos-delay="200">
+                    <div class="card-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-seedling"></i></div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 data-i18n="proj_2_title">Smart Farm System (IoT)</h3>
+                    <p data-i18n="proj_2_desc">University graduation project focused on IoT and automation. Built an
+                        intelligent farming system that monitors soil moisture, temperature, and automates irrigation
+                        using embedded sensors and microcontrollers.</p>
+                    <div class="project-tags">
+                        <span>IoT</span>
+                        <span>Embedded Systems</span>
+                        <span>Sensors</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="zoom-in-up" data-aos-delay="300">
+                    <div class="card-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 data-i18n="proj_3_title">Professional Web Solutions</h3>
+                    <p data-i18n="proj_3_desc">Developed robust web applications and Shopify stores during my tenure at
+                        MEGAWRA (2019-2025) and Trust Used (2025-2026). Focused on performance optimization, seamless
+                        user experience, and robust database management.</p>
+                    <div class="project-tags">
+                        <span>Shopify</span>
+                        <span>Web Dev</span>
+                        <span>IT Support</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card" data-aos="zoom-in-up" data-aos-delay="400">
+                    <div class="card-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <h3 data-i18n="proj_4_title">IT Instruction & Mentorship</h3>
+                    <p data-i18n="proj_4_desc">Served as an IT Instructor teaching comprehensive courses on Networking
+                        (CCNA), Python, IoT, Database Software, and Hardware. Empowered students to master complex
+                        technical concepts and build practical projects.</p>
+                    <div class="project-tags">
+                        <span>Mentorship</span>
+                        <span>CCNA & Net</span>
+                        <span>IoT & Python</span>
+                        <span>Hardware</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle" data-i18n="skills_subtitle">03. Technical Arsenal</span>
+                <h2 class="section-title" data-i18n="skills_title">Tools & Technologies.</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-item" data-aos="flip-left" data-aos-delay="50">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <span data-i18n="skill_1">Web Development</span>
+                </div>
+                <div class="skill-item" data-aos="flip-left" data-aos-delay="100">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <span data-i18n="skill_2">Python & Logic</span>
+                </div>
+                <div class="skill-item" data-aos="flip-left" data-aos-delay="150">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <span data-i18n="skill_3">Database Software</span>
+                </div>
+                <div class="skill-item" data-aos="flip-left" data-aos-delay="200">
+                    <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                    <span data-i18n="skill_4">CCNA & Networking</span>
+                </div>
+                <div class="skill-item" data-aos="flip-left" data-aos-delay="250">
+                    <div class="skill-icon"><i class="fas fa-wifi"></i></div>
+                    <span data-i18n="skill_5">IoT Integration</span>
+                </div>
+                <div class="skill-item" data-aos="flip-left" data-aos-delay="300">
+                    <div class="skill-icon"><i class="fab fa-shopify"></i></div>
+                    <span data-i18n="skill_6">Shopify</span>
+                </div>
+                <div class="skill-item" data-aos="flip-left" data-aos-delay="350">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <span data-i18n="skill_7">IT Infrastructure</span>
+                </div>
+                <div class="skill-item" data-aos="flip-left" data-aos-delay="400">
+                    <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                    <span data-i18n="skill_8">Embedded Systems</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle" data-i18n="contact_subtitle">04. Get In Touch</span>
+                <h2 class="section-title" data-i18n="contact_title">Let's Build Something Great.</h2>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <p class="contact-desc" data-i18n="contact_desc">
+                        My ambition is to leverage my technical foundation and database expertise into a dynamic global
+                        career. Whether you have a question, a project idea, or just want to connect, my inbox is always
+                        open!
+                    </p>
+
+                    <div class="contact-cards-container">
+                        <div class="contact-card">
+                            <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <h4 data-i18n="contact_email_title">Email Me At</h4>
+                                <p>ahmedmahmoudshika@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="icon-box"><i class="fab fa-linkedin-in"></i></div>
+                            <div class="contact-details">
+                                <h4 data-i18n="contact_social_title">Connect</h4>
+                                <p data-i18n="contact_social_desc">LinkedIn Profile</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left" data-aos-delay="200">
+                    <div class="form-glow"></div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label data-i18n="form_name">Full Name</label>
+                            <input type="text" required>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <label data-i18n="form_email">Email Address</label>
+                            <input type="email" required>
+                            <div class="input-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <label data-i18n="form_msg">Message</label>
+                            <textarea rows="4" required></textarea>
+                            <div class="input-line"></div>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <span data-i18n="form_btn">Send Message</span>
+                            <i class="fas fa-paper-plane RTL-icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <a href="#" class="footer-logo">Ahmed<span>.</span></a>
+            <div class="social-links">
+                <a href="https://wa.me/201000000000" target="_blank" title="WhatsApp"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="mailto:ahmedmahmoudshika@gmail.com" target="_blank" title="Gmail"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/share/18FuTJbfrK/" target="_blank" title="Facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; <span id="year"></span><span data-i18n="footer_text"> Embedded Systems & IT Portfolio. Designed
+                    with precision & logic.</span></p>
+        </div>
+    </footer>
+
+    <!-- Scripts: Particles, Typed, AOS, Translations, and Custom -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
